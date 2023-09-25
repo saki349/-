@@ -1,0 +1,174 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>超市账单管理系统</display-name>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <display-name>LoginServlet</display-name>
+    <description></description>
+    <servlet-class>cn.edu.ccu.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SelectUserListServlet</servlet-name>
+    <display-name>SelectUserListServlet</display-name>
+    <description></description>
+    <servlet-class>cn.edu.ccu.controller.SelectUserListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelectUserListServlet</servlet-name>
+    <url-pattern>/SelectUserListServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SelectBillListServlet</servlet-name>
+    <display-name>SelectBillListServlet</display-name>
+    <description></description>
+    <servlet-class>cn.edu.ccu.controller.SelectBillListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelectBillListServlet</servlet-name>
+    <url-pattern>/SelectBillListServlet</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+  <servlet-name>SelectUserByUsernameServlet</servlet-name>
+  <display-name>SelectUserByUsernameServlet</display-name>
+  <description></description>
+  <servlet-class>cn.edu.ccu.controller.SelectUserByUsernameServlet</servlet-class>
+</servlet>
+  <servlet-mapping>
+    <servlet-name>SelectUserByUsernameServlet</servlet-name>
+    <url-pattern>/SelectUserByUsernameServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SelectBillByProductnameServlet</servlet-name>
+    <display-name>SelectBillByProductnameServlet</display-name>
+    <description></description>
+    <servlet-class>cn.edu.ccu.controller.SelectBillByProductnameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelectBillByProductnameServlet</servlet-name>
+    <url-pattern>/SelectBillByProductnameServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SelectUserByIdServlet</servlet-name>
+    <display-name>SelectUserByIdServlet</display-name>
+    <description></description>
+    <servlet-class>cn.edu.ccu.controller.SelectUserByIdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelectUserByIdServlet</servlet-name>
+    <url-pattern>/SelectUserByIdServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SelectBillByIdServlet</servlet-name>
+    <display-name>SelectBillByIdServlet</display-name>
+    <description></description>
+    <servlet-class>cn.edu.ccu.controller.SelectBillByIdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelectBillByIdServlet</servlet-name>
+    <url-pattern>/SelectBillByIdServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddUserServlet</servlet-name>
+    <display-name>AddUserServlet</display-name>
+    <description></description>
+    <servlet-class>cn.edu.ccu.controller.AddUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddUserServlet</servlet-name>
+    <url-pattern>/AddUserServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SaveUserServlet</servlet-name>
+    <display-name>SaveUserServlet</display-name>
+    <description></description>
+    <servlet-class>cn.edu.ccu.controller.SaveUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveUserServlet</servlet-name>
+    <url-pattern>/SaveUserServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddBillServlet</servlet-name>
+    <display-name>AddBillServlet</display-name>
+    <description></description>
+    <servlet-class>cn.edu.ccu.controller.AddBillServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddBillServlet</servlet-name>
+    <url-pattern>/AddBillServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SaveBillServlet</servlet-name>
+    <display-name>SaveBillServlet</display-name>
+    <description></description>
+    <servlet-class>cn.edu.ccu.controller.SaveBillServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveBillServlet</servlet-name>
+    <url-pattern>/SaveBillServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DeleteUserByIdServlet</servlet-name>
+    <display-name>DeleteUserByIdServlet</display-name>
+    <description></description>
+    <servlet-class>cn.edu.ccu.controller.DeleteUserByIdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteUserByIdServlet</servlet-name>
+    <url-pattern>/DeleteUserByIdServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DeleteBillByIdServlet</servlet-name>
+    <display-name>DeleteBillByIdServlet</display-name>
+    <description></description>
+    <servlet-class>cn.edu.ccu.controller.DeleteBillByIdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteBillByIdServlet</servlet-name>
+    <url-pattern>/DeleteBillByIdServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UpdateUserServlet</servlet-name>
+    <display-name>UpdateUserServlet</display-name>
+    <description></description>
+    <servlet-class>cn.edu.ccu.controller.UpdateUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateUserServlet</servlet-name>
+    <url-pattern>/UpdateUserServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UpdateBillServlet</servlet-name>
+    <display-name>UpdateBillServlet</display-name>
+    <description></description>
+    <servlet-class>cn.edu.ccu.controller.UpdateBillServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateBillServlet</servlet-name>
+    <url-pattern>/UpdateBillServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+</web-app>
